@@ -15,20 +15,20 @@ int main(void)
 	ipa = fopen("a.txt", "rt");
 	if (ipa == NULL)
 	{
-		printf("ÀÔ·Â ÆÄÀÏÀ» ¿­Áö ¸øÇß½À´Ï´Ù.\n");
+		printf("ì…ë ¥ íŒŒì¼ì„ ì—´ì§€ ëª»í–ˆìŠµë‹ˆë‹¤.\n");
 		return 1;
 	}
 	ipb = fopen("b.txt", "rt");
 	if (ipb == NULL)
 	{
-		printf("ÀÔ·Â ÆÄÀÏÀ» ¿­Áö ¸øÇß½À´Ï´Ù.\n");
+		printf("ì…ë ¥ íŒŒì¼ì„ ì—´ì§€ ëª»í–ˆìŠµë‹ˆë‹¤.\n");
 		return 1;
 	}
 
 	opc = fopen("c.txt", "at");
 	if (opc == NULL)
 	{
-		printf("Ãâ·Â ÆÄÀÏÀ» ¿­Áö ¸øÇß½À´Ï´Ù.\n");
+		printf("ì¶œë ¥ íŒŒì¼ì„ ì—´ì§€ ëª»í–ˆìŠµë‹ˆë‹¤.\n");
 		return 1;
 	}
 
